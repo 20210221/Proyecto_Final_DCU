@@ -1,0 +1,27 @@
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Monkey's Math.exe.config
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Monkey's Math.exe
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Monkey's Math.pdb
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.csprojAssemblyReference.cache
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Home.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Math_1.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Math_2.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Math_3.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Math_4.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Portada.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.Properties.Resources.resources
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.csproj.GenerateResource.cache
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.csproj.CoreCompileInputs.cache
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.csproj.CopyComplete
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.exe
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.pdb
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Interop.MSScriptControl.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\Interop.WMPLib.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\AxInterop.MSScriptControl.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Interop.WMPLib.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\AxInterop.MSScriptControl.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey's Math.csproj.ResolveComReference.cache
+C:\Users\Rafael De La Cruz\source\repos\Monkey's Math\Monkey's Math\obj\Debug\Monkey_s_Math.medias.resources

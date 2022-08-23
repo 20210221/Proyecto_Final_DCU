@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3518C488-4E42-41EE-A0D6-976264FC864D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Monkey_s_Math</RootNamespace>
+    <AssemblyName>Monkey%27s Math</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Math-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math-1.Designer.cs">
+      <DependentUpon>Math-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math-2.Designer.cs">
+      <DependentUpon>Math-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math-3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math-3.Designer.cs">
+      <DependentUpon>Math-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math-4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math-4.Designer.cs">
+      <DependentUpon>Math-4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="medias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medias.Designer.cs">
+      <DependentUpon>medias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Portada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Portada.Designer.cs">
+      <DependentUpon>Portada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math-1.resx">
+      <DependentUpon>Math-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math-2.resx">
+      <DependentUpon>Math-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math-3.resx">
+      <DependentUpon>Math-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math-4.resx">
+      <DependentUpon>Math-4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medias.resx">
+      <DependentUpon>medias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Portada.resx">
+      <DependentUpon>Portada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\118876_monkey_face_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-open2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-open3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-exit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\icon-p6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\8679941_logout_box_line_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\factorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\deriva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\porciento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\pitagoras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\9054800_bx_shape_triangle_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\309097_calculator_calculation_finance_financial_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\8541740_chalkboard_teacher_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\6578917_broom_clean_cleaning_housekeeping_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\clean.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
